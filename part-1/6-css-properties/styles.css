@@ -1,1 +1,21 @@
 /* Add your CSS code below */
+a {
+  color: #ff0000;
+  font-weight: 700;
+  text-decoration: none;
+}
+p {
+  font-size: 0.9rem;
+  word-wrap: break-word;
+}
+.message--unread {
+  border-left: solid;
+  border-color: #0000ff;
+}
+.messages .message:first-child {
+  opacity: 70%;
+}
+
+.message {
+  line-height: 2.5;
+}
