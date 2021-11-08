@@ -3,6 +3,10 @@
  */
 (function() {
   var messages = document.querySelectorAll(".message__content");
+
+  // [...messages].map(x=>console.log(x.innerHTML))
+  // console.log(messages)
+
   if (!messages.length) {
     alert(
       "You have linked the JavaScript, but not at the correct location in the code. The script tag must be added near the end of the <body> tag."
