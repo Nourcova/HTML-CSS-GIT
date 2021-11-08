@@ -3,4 +3,11 @@
   border: 1px solid #4491db;
   border-radius: 4px;
   background: #fff;
+  padding: 3px;
+  padding-inline: 6px;
+}
+.pages {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  padding-bottom: 1.5rem;
 }
