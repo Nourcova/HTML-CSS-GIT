@@ -3,3 +3,57 @@
 }
 
 /* Add your own CSS code below */
+
+.countries--first {
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.countries--second {
+  flex-direction: row-reverse;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.countries--third {
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.countries--third li:first-child {
+  align-self: flex-end;
+}
+
+.countries--fourth {
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.countries--fourth li:nth-child(3),
+.countries--fourth li:nth-child(4) {
+  align-self: center;
+}
+
+.countries--fifth {
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.countries--fifth li:nth-child(4) {
+  order: 1;
+}
+.countries--fifth li:nth-child(5) {
+  order: 2;
+  align-self: center;
+}
+.countries--fifth li:nth-child(3) {
+  order: 3;
+}
+.countries--fifth li:nth-child(2) {
+  order: 4;
+}
+.countries--fifth li:nth-child(1) {
+  order: 5;
+}
