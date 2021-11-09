@@ -36,24 +36,14 @@
 }
 
 .countries--fifth {
-  flex-direction: column;
+  flex-direction: column-reverse;
   align-items: flex-end;
   justify-content: space-between;
 }
 
-.countries--fifth li:nth-child(4) {
-  order: 1;
-}
-.countries--fifth li:nth-child(5) {
-  order: 2;
-  align-self: center;
-}
-.countries--fifth li:nth-child(3) {
-  order: 3;
-}
-.countries--fifth li:nth-child(2) {
+.countries--fifth .country--laos {
   order: 4;
 }
-.countries--fifth li:nth-child(1) {
-  order: 5;
+.countries--fifth .country--uganda {
+  align-self: center;
 }
