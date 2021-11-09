@@ -42,7 +42,7 @@ git checkout master
 
 > _Hint: Run `git branch` in the terminal to make sure you're on the correct branch._
 
-Edit the `style.css` file and change the colour of the links in your messages to `#ff00ea`. Check to see if the links have changed to a purple colour. If they have, then add and commit your changes.
+Edit the `style.css` file and change the colour of the links in your messages to `#4491db`. Check to see if the links have changed to a purple colour. If they have, then add and commit your changes.
 
 Phew! You have restored the blue links and customers have stopped complaining. The next day your boss decides she wants to launch the purple links. You can do this by merging your `purple_links` branch into master.
 
