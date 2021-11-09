@@ -20,3 +20,15 @@ You should not be able to type anything in the Country field. And the delivery o
 **Extra Credit**
 
 What's the difference between `readonly` and `disabled`? See if you can understand this [question and answer](https://stackoverflow.com/questions/7730695/whats-the-difference-between-disabled-disabled-and-readonly-readonly-for-ht).
+
+### readonly
+
+1. Values gets sent when the form submits
+2. Can recieve the focus
+3. Included in tabbing navigation
+
+### disabled
+
+1. Values are not sent ahen the form submits
+2. Cannot recieve focus
+3. Skipped in tabbing navigation
