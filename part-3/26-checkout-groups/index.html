@@ -23,7 +23,7 @@
             <tr>
               <td>
                 <div class="shopping-basket__product">
-                  <img src="/images/20-shirts.jpg" alt="Codi t-shirts in black" />
+                  <img src="/images/22/shirts.jpg" alt="Codi t-shirts in black" />
                   <p>Codi t-shirt, black</p>
                 </div>
               </td>
@@ -38,6 +38,29 @@
           <h2 class="checkout__title">Checkout</h2>
           <form method="GET" id="checkout-form" class="checkout__form">
             <!-- Add the form fields here -->
+            <fieldset>
+              <legend>Billing Address</legend>
+              <label for="adress1"> Adress line 1</label>
+              <input type="text" id="adress1" name="billing_address1" /><br />
+              <label for="adress2"> Adress line 2</label>
+              <input type="text" id="adress2" name="billing_address2" /><br />
+              <label for="postcode"> Postcode</label>
+              <input type="text" id="postcode" name="billing_postcode" /><br />
+              <label for="city"> City</label>
+              <input type="text" id="city" name="billing_city" />
+            </fieldset>
+
+            <fieldset>
+              <legend>Delivery Address</legend>
+              <label for="delivery_adress1"> Adress line 1</label>
+              <input type="text" id="delivery_adress1" name="delivery_adress1" /><br />
+              <label for="delivery_adress2"> Adress line 2</label>
+              <input type="text" id="delivery_adress2" name="delivery_adress2" /><br />
+              <label for="delivery_postcode"> Postcode</label>
+              <input type="text" id="delivery_postcode" name="delivery_postcode" /><br />
+              <label for="delivery_city"> City</label>
+              <input type="text" id="delivery_city" name="delivery_city" />
+            </fieldset>
 
             <button type="submit">Complete Purchase</button>
           </form>
