@@ -1,1 +1,35 @@
 /* Add your own CSS code below */
+footer span {
+  color: #c85308;
+}
+header ul {
+  display: flex;
+  justify-content: space-around;
+}
+article {
+  max-width: 50em;
+  line-height: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 992px) {
+  .hero h2 {
+    font-size: xxx-large;
+  }
+}
+
+@media (min-width: 767px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .views {
+    display: flex;
+    align-items: center;
+  }
+  .views a:last-child {
+    margin-left: auto;
+  }
+}
